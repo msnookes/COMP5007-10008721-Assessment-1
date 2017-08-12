@@ -1,0 +1,53 @@
+body {
+    background-image: url("../images/flag.jpg");  
+    background-size: 100%;
+    background-attachment: fixed;      
+}
+
+img {
+    width: 70%;         
+}
+
+blockquote {
+     color: gray;
+     font-size: 14px;
+     border-left: 0; 
+     padding: 20px;              
+}
+
+p { 
+     text-align: right; 
+     color: #744;
+     margin: 3%; padding: 1%;
+     font-style: italic;                
+}
+
+h1 {   
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 70px;
+    font-style: italic;
+    font-style: oblique;
+    color: gray;           
+}
+
+.car {
+    width: 70%;
+    margin-left: 15%;
+    background: black;
+    
+    padding: 20px;     
+}
+
+.title {
+    background: black;
+    text-shadow: 2px 2px lightgray;
+    height: 20%;
+    padding: 0%;   
+}
+
+div {
+    padding: 1%;
+}
+
+
