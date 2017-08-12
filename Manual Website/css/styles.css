@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/flag.jpg");  
+    background-size: 100%;
+    background-attachment: fixed; 
+    margin: 0;
+    padding: 0;
+} 
+
+.car {
+    padding: 5%;
+    width: 70%;  
+}
+
+.title {
+    width: 60%;
+    font-size: 40px; 
+    background-color: black;
+    text-align: center;
+    margin: 1px 20%;
+    text-shadow: 2px 2px lightgray;
+    color: gray;
+    font-style: italic;
+    font-style: oblique;      
+}
+
+blockquote {
+     margin: 10% 10%; 
+     color: gray;
+     font-size: 17px;               
+}
+
+p {
+     text-align: right; 
+     color: #744;
+     margin: 11% 11%;
+     font-style: italic;        
+}
+
+.one , .two , .three , .four , .five , .six , .seven , .eight , .nine , .ten {  
+    float:left;
+    background-color: black;
+    width: 23%;  
+    margin-top: 1%;
+    margin-left: 7.5%;   
+}
+
+@media only screen and (min-width:1025px) {
+.two {
+     float: right;
+     margin-right: 22%;
+}
+.one {
+    margin-left: 22%;
+}
+.three {
+    clear: left;
+}
+.six {
+    clear: left;
+    margin-left: 22%;
+}
+.seven {
+    float: right;
+    margin-right: 22%;
+}
+.eight {
+    clear: left;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {     
+.title {
+    margin: 0% 10%;
+    width: 80%;
+    font-size: 35px;
+}
+.one , .two , .three , .four , .five , .six , .seven , .eight , .nine , .ten {
+    width: 40%;
+}
+.nine {
+    clear: left;
+} 
+.car {  
+    width: 60%;  
+}
+.five {
+    clear: left;
+}  
+}
+
+@media only screen and (min-width:321px) and (max-width:767px) { 
+.title {
+    width: 95%;
+    margin: .5% 2.5%;
+    font-size: 20px;
+    text-shadow: 1px 1px lightgray;
+}
+.one , .two , .three , .four , .five , .six , .seven , .eight , .nine , .ten {
+    width: 80%;
+    margin: .5% 10%;
+}
+.car {
+    
+    float: left;
+    width: 40%;  
+}
+}
+
+@media only screen and (min-width:0px) and (max-width:320px) { 
+.title {
+    width: 95%;
+    margin: .5% 2.5%;
+    font-size: 15px;
+    text-shadow: 1px 1px lightgray;
+}
+.one , .two , .three , .four , .five , .six , .seven , .eight , .nine , .ten {
+    width: 95%;
+    margin: .5% 2.5%;
+    }
+.car { 
+    float: left;
+    width: 40%;  
+}
+} 
