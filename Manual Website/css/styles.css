@@ -5,9 +5,7 @@
 body {
     background-image: url("../images/flag.jpg");  
     background-size: 100%;
-    background-attachment: fixed; 
-    margin: 0;
-    padding: 0;
+    background-attachment: fixed;    
 } 
 
 .car {
@@ -49,80 +47,101 @@ p {
 }
 
 @media only screen and (min-width:1025px) {
+
 .two {
      float: right;
      margin-right: 22%;
 }
+
 .one {
     margin-left: 22%;
 }
+
 .three {
     clear: left;
 }
+
 .six {
     clear: left;
     margin-left: 22%;
 }
+
 .seven {
     float: right;
     margin-right: 22%;
 }
+
 .eight {
     clear: left;
 }
+
 }
 
-@media only screen and (min-width:768px) and (max-width:1024px) {     
+@media only screen and (min-width:768px) and (max-width:1024px) { 
+
 .title {
     margin: 0% 10%;
     width: 80%;
     font-size: 35px;
 }
+
 .one , .two , .three , .four , .five , .six , .seven , .eight , .nine , .ten {
     width: 40%;
 }
+
 .nine {
     clear: left;
 } 
+
 .car {  
     width: 60%;  
 }
+
 .five {
     clear: left;
-}  
+} 
+
 }
 
-@media only screen and (min-width:321px) and (max-width:767px) { 
+@media only screen and (min-width:321px) and (max-width:767px) {
+
 .title {
     width: 95%;
     margin: .5% 2.5%;
     font-size: 20px;
     text-shadow: 1px 1px lightgray;
 }
+
 .one , .two , .three , .four , .five , .six , .seven , .eight , .nine , .ten {
     width: 80%;
     margin: .5% 10%;
 }
+
 .car {
     
     float: left;
     width: 40%;  
 }
+
 }
 
 @media only screen and (min-width:0px) and (max-width:320px) { 
+
 .title {
     width: 95%;
     margin: .5% 2.5%;
     font-size: 15px;
     text-shadow: 1px 1px lightgray;
 }
+
 .one , .two , .three , .four , .five , .six , .seven , .eight , .nine , .ten {
     width: 95%;
     margin: .5% 2.5%;
     }
+
 .car { 
     float: left;
     width: 40%;  
 }
-} 
+
+}
